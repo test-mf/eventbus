@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"strict": true,
+		"target": "esnext",
+		"module": "commonjs",
+		"declaration": true,
+		"skipLibCheck": false,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"forceConsistentCasingInFileNames": true
+	},
+	"exclude": ["node_modules", "**/__tests__/*", "**/__mocks__/*", "dist"]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "@test-mf/eventbus",
+	"version": "1.0.2",
+	"description": "",
+	"main": "./dist/src/index.js",
+	"module": "./dist/src/index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"publishConfig": {
+		"@test-mf/eventBus:registry": "https://npm.pkg.github.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/test-mf/eventBus.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/test-mf/eventBus/issues"
+	},
+	"homepage": "https://github.com/test-mf/eventBus#readme",
+	"devDependencies": {
+		"prettier": "^2.6.2",
+		"typescript": "^4.7.2"
+	},
+	"files": [
+		"dist/**/**",
+		"README.md",
+		"package.json"
+	]
+}
