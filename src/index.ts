@@ -9,7 +9,7 @@ export function handleEvent<PropsType>(
 	) => callback(event.detail)) as EventListener);
 }
 
-export function invokeEvent(eventName: string, props: Object) {
+export function invokeEvent(eventName: string, props?: Object) {
 	const event = new CustomEvent(`${EVENTS_PREFIX}${eventName}`, {
 		detail: props,
 	});
