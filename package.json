@@ -2,8 +2,8 @@
 	"name": "@test-mf/eventbus",
 	"version": "1.0.3",
 	"description": "",
-	"main": "./dist/src/index.js",
-	"module": "./dist/src/index.js",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
 	"scripts": {
 		"build": "tsc"
 	},
